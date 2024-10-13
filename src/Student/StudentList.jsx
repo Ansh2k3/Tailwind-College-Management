@@ -16,6 +16,7 @@ function StudentList() {
   const [selectedStudent, setSelectedStudent] = useState(null);
   const [isDeleteConfirmationOpen, setIsDeleteConfirmationOpen] = useState(false);
   const [studentToDelete, setStudentToDelete] = useState(null);
+  
 
   const handleEdit = (student) => {
     setEditId(student.id);
